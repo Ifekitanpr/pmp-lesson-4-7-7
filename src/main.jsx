@@ -105,11 +105,11 @@ const quiz = {
   q: "Scenario: A vendor and buyer disagree over whether a specific technical deliverable meets a narrow, precisely defined performance specification in the contract. Both sides have already tried discussing it directly without resolving the disagreement. Which next step on the ADR ladder is most appropriate for this specific kind of disagreement?",
   answers: [
     "Litigation, since the disagreement has already failed to resolve through direct discussion",
-    "Expert determination, since the dispute centers on a narrow, well-defined technical question rather than the broader relationship",
     "A dispute review board, since standing panels are the appropriate next step after failed negotiation",
+    "Expert determination, because the dispute is a narrow, well-defined technical question",
     "Mediation, since a neutral facilitator is always the correct next step after direct negotiation fails",
   ],
-  correct: 1,
+  correct: 2,
   good: "Correct! Expert determination is specifically suited to a narrow technical or financial question like this one — an independent expert can rule on whether the deliverable meets the defined specification, without escalating the entire relationship into arbitration or litigation.",
   bad: "Reconsider — litigation is the true last resort; dispute review boards are typically a standing presence set up in advance, not assembled reactively; and mediation suits broader relational disputes better than a narrow, well-defined technical question.",
 };
